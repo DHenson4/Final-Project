@@ -1,0 +1,140 @@
+.navbar-brand {
+   width: 120px;
+   height: 120px;
+   margin-right: 0%;
+   margin-left: 1%;
+}
+
+.navbar-brand2 {
+    width: 125px;
+    height: 125px;
+    
+ }
+.navbar {
+    background-color: white;
+    
+}
+
+.navbar-nav {
+background-color: #440e52;
+}
+.d-flex {
+    margin-right: 10%;
+    width: 30%;
+   color: #fd2391;
+   margin-left: 10%;
+   
+}
+
+.col-8 {
+    text-align: center;
+    font-size: 50px;
+    
+}
+
+#two {
+    background-color: #0e5476;
+}
+
+button {
+    justify-content: center;
+    color: #00d2d3;
+    width: 260px;
+    height: 80px;
+    font-size: 40px;
+    background-color: #0e5476;
+}
+
+select {
+    margin-left: 39px;
+}
+#one {
+    font-size: 55px;
+    font-weight: bold;
+
+}
+.nav-link {
+    color: #00d2d3;
+    text-align: center;
+    font-size: 30px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+#r1 {
+    margin-left: 145px;
+}
+
+#r2 {
+    margin-left: 100px;
+}
+
+#r3 {
+    margin-left: 83px;
+}
+.card {
+    color: #00d2d3;
+    background-color: #0e5476;
+}
+
+.card-body {
+    background-color: white;
+}
+
+p {
+    font-size: 44px;
+    
+    padding: 15px;
+    
+    
+}
+#button2 {
+    font-size: 30px;
+    background-color: #00d2d3;
+    color: white;
+    margin-left: 308px;
+}
+
+#initialCost {
+    margin-left: 10px;
+}
+
+#protectionCost {
+    margin-left: 0px;
+}
+
+#totalCost {
+    margin-left: 0px;
+}
+
+#hr1 {
+    width: 500px;
+}
+
+#p1 {
+    text-align: left;
+    font-size: 20px;
+}
+.container-flex p {
+    font-size: 24px;
+    text-align: center;
+    margin-top: 0%;
+}
+
+.container-flex h1 {
+   font-size: 35px;
+    text-align: center;
+    font-weight: bold;
+}
+
+#plan_0 {
+    margin-left: 103px;
+}
+
+#plan_1 {
+    margin-left: 63px;
+}
+
+#plan_2 {
+    margin-left: 40px;
+}

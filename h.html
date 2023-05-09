@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="style.js"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    
+   
+    
+    <section id="orderSection">
+       <form id="orderForm" name="orderForm" method="get" action="co_payment.html">
+         
+         <table id="orderTable">
+            <caption></caption>
+            <tr>
+               <td colspan="3">
+                  <input type="text" id="orderDate" name="orderDate" readonly />
+               </td>
+            </tr>
+            <tr>
+               <td>
+                  <label for="model">Shoe</label>
+                  <select name="model" id="model">
+                     <option value="95.00">Open Toed High-Tops  ($95.00)</option>
+                     <option value="150.00" selected>High Style High-Tops  ($150.00)</option>
+                     <option value="110.00">Low-Top Runners  ($110.00)</option>
+                  </select>   
+                  <input type="hidden" id="modelName" name="modelName" />
+                  
+               </td>
+               <td class="rightA">
+                  <label for="qty">Insurance ($20 Per Year)</label>
+                  <select name="qty" id="qty">
+                       <option value="0"selected>0</option>
+                       <option value="1">1</option>
+                       <option value="1">2</option>
+                       <option value="1">3</option>
+                  </select>   
+               </td>                 
+               <td>
+                  <input type="text" name="initialCost" id="initialCost" size="10" readonly />
+               </td>
+            </tr>
+            <tr>
+               <td colspan="2"> 
+                  <fieldset>
+                     <legend>Shipping</legend>
+                     <label><input type="radio" id="plan_0" name="protection" value="0" checked />Standard Shipping = No Charge</label>
+                     <label><input type="radio" id="plan_1" name="protection" value="25.00" />2-Day Delivery = $25</label>   
+                     <label><input type="radio" id="plan_2" name="protection" value="60.00" />Next Day Delivery = $60</label> 
+                    
+                  </fieldset>
+                  <input type="hidden" id="protectionName" name="protectionName" />
+               </td>
+               <td>
+                  <input type="text" name="protectionCost" id="protectionCost" size="10" readonly />
+               </td>
+            </tr>        
+            <tr>
+               <td colspan="2" class="rightA">Subtotal</td>
+               <td class="outcell">
+                  <input type="text" name="subtotal" id="subtotal" size="10" readonly />
+               </td>
+            </tr>
+ 
+           
+ 
+            <tr>
+               <td colspan="2" class="rightA">TOTAL</td>
+               <td>
+                  <input type="text" name="totalCost" id="totalCost" size="10" readonly />
+               </td>
+            </tr>
+         </table>
+         <input type="submit" id="buttonAdd" value="add to cart" />
+ 
+       </form>
+    </section>
+    
+ </body>
+ </html>
