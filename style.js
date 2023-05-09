@@ -12,8 +12,6 @@ function addC(product) {
 }
 
 window.addEventListener("load", function() {
-    var orderForm = document.forms.orderForm;
-    orderForm.elements.orderDate.value = new Date().toDateString();
     orderForm.elements.model.focus();
 
     calcOrder();

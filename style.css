@@ -75,7 +75,9 @@ select {
 .card {
     color: #00d2d3;
     background-color: #0e5476;
+    
 }
+
 
 .card-body {
     background-color: white;
@@ -87,6 +89,13 @@ p {
     padding: 15px;
     
     
+}
+.active {
+    background-color: #00d2d3;
+    color: #440e52;
+}
+#total {
+    margin-left: 200px;
 }
 #button2 {
     font-size: 30px;
